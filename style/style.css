@@ -175,23 +175,62 @@ footer{
 }
 
 .left-footer{
-  background-color: #f08080;
+  color: white;
   height: 90%;
   width: 30%;
+}
+
+.left-footer h2{
+  font-size: 3rem;
+  color: #8ea1e1;
+}
+
+.left-footer span{
+  padding: 1.5rem 0;
+}
+
+.left-footer > i{
+  padding-right: 2rem;
+}
+
+.left-footer img{
+  height: 20px;
+}
+
+.left-footer span{
+  display: block;
+  vertical-align: middle;
+}
+
+.left-footer > i{
+  font-size: 1.5rem;
+}
+
+.right-footer h3{
+  color: #8ea1e1;
+  font-size: 1.5rem;
 }
 
 .right-footer{
   height: 90%;
   width: 70%;
+  color: white;
+}
+
+.right-footer ul > *{
+  padding: 0.5rem 0;
+}
+
+.right-footer ul{
+  list-style: none;
+}
+
+.right-footer li{
+  font-size: 1.5rem;
 }
 
 .last-link{
-  background-color: #20b2aa;
   width: 25%;
-}
-
-.white-dotted{
-  border: white dotted;
 }
 
 .button{

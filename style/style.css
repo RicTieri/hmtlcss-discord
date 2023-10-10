@@ -22,10 +22,6 @@ nav{
   margin: auto;
 }
 
-.dotted{
-  border: black dotted;
-}
-
 .logo,
 .login{
   padding: 1rem;
@@ -33,8 +29,8 @@ nav{
 }
 
 button{
-  padding: .75rem;
-  border-radius: 30px;
+  padding: 1rem 2rem;
+  border-radius: 90px;
   border: white;
 }
 
@@ -238,6 +234,7 @@ footer{
   width: 80%;
   height: 60px;
   margin: auto;
+  padding: 2rem 0 8rem 0;
   justify-content: space-between;
 }
 

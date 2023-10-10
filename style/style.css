@@ -163,10 +163,9 @@ footer{
 }
 
 .more-links{
-  height: 600px;
   width: 80%;
   margin: auto;
-  padding-top: 1rem;
+  padding: 8rem 0 2rem 0;
   flex-wrap: wrap;
 }
 
@@ -190,6 +189,7 @@ footer{
 }
 
 .left-footer img{
+  vertical-align: middle;
   height: 20px;
 }
 

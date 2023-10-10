@@ -97,37 +97,48 @@ nav li{
   margin: 1rem;
 }
 
-
-
 .two-elements{
   width: 80%;
-  height: 500px;
   margin: auto;
+
 }
 
-.pink-article{
-  background-color: #ffc0cb;
-  height: 80%;
+.text-article{
+  padding: 1rem;
   width: 40%;
   margin: auto;
 }
 
-.blue-article{
-  background-color: #1e90ff;
-  height: 80%;
+.image-article{
   width: 60%;
   margin: auto;
 }
 
-.article-2{
-  background-color: #d3d3d3;
+.image-article img{
+  width: 100%;
+  padding: 1rem;
+}
+
+.article-reverse{
   margin: auto;
   flex-direction: row-reverse;
 }
 
-.article-2 > article{
+.article-reverse > article{
   flex-direction: row-reverse;
 }
+
+.text-article > h1{
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.text-article > p{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+
 
 .last-article{
   background-color: #d3d3d3;

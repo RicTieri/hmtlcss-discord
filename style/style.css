@@ -10,7 +10,6 @@ body{
 
 header{
   background-color: #255ee9;
-  padding: 0.5rem 0 0 0;
 }
 
 .flex{
@@ -20,12 +19,7 @@ header{
 nav{
   width: 80%;
   justify-content: center;
-  align-items: center;
-  margin: 1rem  auto;
-}
-
-nav > div{
-  padding: .25rem;
+  margin: auto;
 }
 
 .dotted{
@@ -34,6 +28,7 @@ nav > div{
 
 .logo,
 .login{
+  padding: 1rem;
   width: 20%;
 }
 
@@ -43,21 +38,18 @@ button{
   border: white;
 }
 
-.button-black{
-  color: white;
-  background-color: black;
-  border: black;
-}
 .login{
   text-align: end;
 }
 
 .navbar{
+  padding: .5rem;
   text-align: center;
   width: 60%;
 }
 
 nav ul{
+  padding: 1rem;
   list-style: none;
 }
 
@@ -72,7 +64,7 @@ nav li{
   background-image: url(../img/jumbo.png);
   background-size: cover;
   width: 100%;
-  height: 600px;
+  padding: 10rem;
 }
 
 .jumbo{
@@ -95,6 +87,12 @@ nav li{
 .jumbo button{
   font-size: 1.25rem;
   margin: 1rem;
+}
+
+.button-black{
+  color: white;
+  background-color: black;
+  border: black;
 }
 
 .two-elements{
@@ -197,15 +195,14 @@ footer{
 }
 
 .button{
-  background-color: #7fffd4;
+  border-top: 1px solid #8ea1e1;
   width: 80%;
   height: 60px;
   margin: auto;
-  margin-top: 20px;
   justify-content: space-between;
-  align-items: center;
 }
 
-.pink-bk{
-  background-color: #ffb6c1;
+.button.flex > div > .button-lightblue{
+  margin: auto;
+  font-size: 1rem;
 }
